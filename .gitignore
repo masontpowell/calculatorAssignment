@@ -1,0 +1,93 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Logs
+logs
+*.log
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# OS generated files
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.backup
+
+# Test files (if you add tests later)
+test-results/
+coverage/
+
+# Local configuration
+.env.local
+config.local.js
+
+# Database files (if you add a database)
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled JavaScript (if you use TypeScript)
+*.js.map
+*.d.ts
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
